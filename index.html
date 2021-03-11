@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_060bbcbcfe764de49ad80c8c0f3b56a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_060bbcbcfe764de49ad80c8c0f3b56a3" ></div>
+        
+</body>
+<script>    
+    
+            var map_060bbcbcfe764de49ad80c8c0f3b56a3 = L.map(
+                "map_060bbcbcfe764de49ad80c8c0f3b56a3",
+                {
+                    center: [1.4419683, 38.4313975],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b570029c58d4a8aa9673e862c70c628 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_060bbcbcfe764de49ad80c8c0f3b56a3);
+        
+    
+            var marker_21446e7ac9a2407bacf1b93f9e00726b = L.marker(
+                [1.4419683, 38.4313975],
+                {}
+            ).addTo(map_060bbcbcfe764de49ad80c8c0f3b56a3);
+        
+    
+        var popup_4a1a3545cf6347d188f87f8dea71094b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de6b1502c0414ca68421e0c9c0cd5615 = $(`<div id="html_de6b1502c0414ca68421e0c9c0cd5615" style="width: 100.0%; height: 100.0%;">Kenya</div>`)[0];
+            popup_4a1a3545cf6347d188f87f8dea71094b.setContent(html_de6b1502c0414ca68421e0c9c0cd5615);
+        
+
+        marker_21446e7ac9a2407bacf1b93f9e00726b.bindPopup(popup_4a1a3545cf6347d188f87f8dea71094b)
+        ;
+
+        
+    
+</script>
